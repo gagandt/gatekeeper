@@ -1,0 +1,8 @@
+Solution,Example products,Who controls,What it controls,Filters by team for outside vendors,Threat level,Source
+Built-in permissions,Salesforce integration users,Company,Data (if the tool supports it),Only where the tool has fine permissions,Medium,https://help.salesforce.com/s/articleView?id=platform.integration_user.htm&language=en_US&type=5
+SaaS security tools,"Push Security, Adaptive Shield, AppOmni, Valence",Company,Which apps are connected,No (see and revoke only),Low-Medium,https://pushsecurity.com/blog/is-it-safe-to-allow-my-employees-to-connect-third-party-apps-to-our-m365
+Unified API,Merge Unified (Scopes / Selective Sync / partner credentials),Vendor (mostly),Data models and fields; source-side filters,Partly; depends on source API,High,https://help.merge.dev/articles/9113654-selective-sync
+Employee AI governance,Merge for Workforce / Agent Handler for Employees,Company IT,Employee AI tools: tools; actions; DLP; logs; model cost,Not for outside vendors (unconfirmed),High,https://www.merge.dev/blog/agent-handler-employees
+Data access gateways,"hoop.dev, Cloudentity, Gravitee",Company,Rows in databases and internal APIs,Not built for SaaS tools,Low,https://hoop.dev/blog/row-level-security-secure-api-access-proxy
+Data platforms,Snowflake row access policies,Company,Data already in the warehouse,No (data already pulled),Low,
+Gatekeeper,Gatekeeper,Company,Which data an outside vendor sees by team across tools,Yes (core),n/a,
